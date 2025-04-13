@@ -1,0 +1,1540 @@
+# World Health Organization Membership Status: Verification and Update as of April 13, 2025
+
+## Section 1: Introduction
+
+**Objective:** This report provides a verified and updated dataset detailing the membership status of the World Health Organization (WHO) as of April 13, 2025. The primary output is a comprehensive JSON array reflecting the current list of WHO Member States and Associate Members, incorporating recent developments, particularly the initiation of withdrawal processes by the United States of America and Argentina. The data presented herein has been meticulously cross-referenced against official WHO documentation and other reliable international sources.
+
+**Context:** Membership in international organizations like the WHO is subject to change due to political, economic, and administrative factors. Maintaining accurate and current membership information is crucial for governmental bodies, research institutions, non-governmental organizations, and private sector entities engaged in global health policy, analysis, and operations. Recent announcements by key member states regarding their intention to withdraw underscore the dynamic nature of this landscape and the necessity for precise, time-sensitive data.
+
+**Deliverable:** The core deliverable of this report is the updated JSON array presented in Section 5. This array is structured to be readily usable for data integration and analysis, adhering to standard data formats and reflecting the verified status of each Member State and Associate Member on the specified date.
+
+## Section 2: WHO Membership Landscape (April 13, 2025)
+
+### 2.1. Total Membership:
+As of April 13, 2025, the World Health Organization comprises 194 Member States.[1] This figure remains constant despite recent withdrawal announcements by the United States and Argentina. The WHO Constitution stipulates a twelve-month notification period for any member state wishing to withdraw.[2] Consequently, states that have initiated the withdrawal process remain full members with all associated rights and obligations until this notice period concludes and any outstanding financial contributions are settled.[2] Therefore, both the United States and Argentina are included in the count of 194 Member States as of the reference date, although their status is annotated to reflect the ongoing withdrawal procedure. This procedural requirement highlights a critical distinction between the political announcement of withdrawal and the formal cessation of membership.
+
+### 2.2. Member State Identification:
+The 194 Member States have been verified through cross-referencing lists published by the WHO itself [5] and corroborated with data from the United Nations [7] and other international bodies.[8] Official short names for countries are used, consistent with UN and WHO practice.[8] Recent official name changes have been incorporated where applicable, such as Czechia (formerly Czech Republic) [11], Türkiye (formerly Turkey) [12], and Eswatini (formerly Swaziland).[11] The full list of verified Member States forms the basis of the JSON array in Section 5.
+
+### 2.3. Associate Members:
+In addition to Member States, the WHO constitution allows for the admission of Associate Members. This status applies to territories that are not responsible for the conduct of their international relations; admission requires an application made on their behalf by the Member State or other authority responsible for their international relations.[13] Based on available WHO documentation listing members by region [6], two territories currently hold Associate Member status:
+
+- Puerto Rico
+- Tokelau
+
+While other territories may hold associate status in regional bodies like the Pan American Health Organization (PAHO) [14] or other UN agencies like UNESCO [15], only those explicitly confirmed as WHO Associate Members through WHO-specific sources are included in this report and the accompanying JSON data. This underscores the importance of relying on sources directly pertaining to the specific organization in question, as membership statuses are not automatically transferable between different international bodies. The scarcity of readily accessible, centralized WHO lists detailing Associate Members and their admission dates necessitates careful verification.[5]
+
+### 2.4. Non-Members:
+It is pertinent to note that membership in the United Nations does not automatically confer membership in the WHO, although it is the primary pathway for states to join.[13] The Principality of Liechtenstein serves as a key example; it is a full member of the United Nations [17] but is not a member of the WHO.[2] Reasons cited for its non-membership include the associated costs relative to its small size.[21] Should the withdrawal processes initiated by the United States and Argentina reach completion in 2026, these two nations would join Liechtenstein as UN Member States that are not part of the WHO.[2] This situation highlights the voluntary nature of participation in specialized UN agencies and reinforces the need for specific verification against WHO membership lists rather than assuming membership based on UN status alone.
+
+### 2.5. Data Sources and Verification Methodology:
+The verification process relied primarily on official WHO sources, including the country list available on the WHO data portal [5] and regional membership lists.[6] These were cross-referenced extensively with secondary sources for validation and completeness. Key secondary sources included the official UN Member States list [7], the UN's list of official country names [10], membership lists from other major international organizations (such as ICAO [8], WIPO [9], UNESCO [15], IAEA [25], and IMF [26]), and reputable news and policy analysis sources for tracking the withdrawal statuses of the USA and Argentina ([27-28-32]).
+
+A significant challenge encountered was the difficulty in obtaining a comprehensive, official list of specific WHO join dates for all members from readily available online sources.[5] While UN admission dates are widely available [7], these do not always correspond directly to WHO join dates, particularly for founding members or those joining shortly after WHO's establishment on April 7, 1948.[1] Where the original JSON structure necessitates a join date and a specific WHO date could not be verified, this limitation is noted in the final dataset.
+
+## Section 3: Significant Membership Status Updates (as of April 13, 2025)
+
+Two Member States, the United States of America and Argentina, have formally initiated withdrawal processes from the WHO. As of April 13, 2025, both remain full Member States due to the mandatory 12-month notice period.
+
+### 3.1. United States Withdrawal Process:
+
+**Event:** On January 20, 2025, President Donald Trump issued an Executive Order formally initiating the withdrawal of the United States from the World Health Organization.[31] This action revoked a previous Presidential Letter from January 2021 that had halted an earlier withdrawal attempt initiated in 2020.[3]
+
+**Rationale Cited:** The official justification for withdrawal centers on criticisms of the WHO's handling of the COVID-19 pandemic and other health crises, perceived failures in implementing necessary reforms, an alleged lack of independence from political influence (particularly concerning China), and concerns over funding contributions relative to other members.[2] The Executive Order mandated immediate actions to pause future funding transfers to the WHO and recall US personnel assigned to the organization.[4]
+
+**Procedure:** Withdrawal from the WHO is governed by Article 7 of the WHO Constitution and requires the Member State to provide twelve months' written notice to the Director-General and fulfill all outstanding financial obligations.[2] Formal notification was transmitted to the UN Secretary-General and WHO leadership following the Executive Order.[4]
+
+**Status (April 13, 2025):** The United States remains a full Member State of the WHO. The 12-month notice period commenced on January 20, 2025, and is currently active. US representatives are barred from participating in WHO negotiations, including those for the Pandemic Agreement and International Health Regulations amendments, during this period.[4]
+
+**Effective Withdrawal Date:** The withdrawal is expected to become effective on or around January 20, 2026, contingent upon the completion of the notice period and settlement of financial dues.[4]
+
+**Membership Note Recommendation:**
+> "Member State. Withdrawal process initiated January 20, 2025; effective January 20, 2026, pending completion of the 12-month notice period and fulfillment of obligations."
+
+The initiation of withdrawal by the United States, historically the WHO's largest single donor [3], carries substantial implications beyond the eventual loss of membership. The immediate pause in funding and participation creates significant financial uncertainty for the organization, potentially forcing budget reallocations and the de-prioritization of programs, a trend possibly observed even before Argentina's similar announcement.[27] This financial strain could impact WHO's capacity for global health surveillance, emergency response, and technical assistance.[3] Furthermore, the absence of US technical expertise and leadership in WHO forums diminishes the country's influence ('soft power') in global health governance and potentially limits its access to critical international health intelligence and collaborative networks.[3]
+
+### 3.2. Argentina Withdrawal Process:
+
+**Event:** Following the US announcement, the government of Argentina, under President Javier Milei, declared its intention to withdraw from the WHO in early February 2025.[2]
+
+**Rationale Cited:** The stated reasons echo those of the US administration, focusing on "profound differences in health management," particularly criticizing WHO's recommendations during the COVID-19 pandemic, which were described in strong terms such as enabling "crimes against humanity" and the "greatest experiment in social control in history".[2] The move was also framed as an assertion of national sovereignty in health policy.[2]
+
+**Procedure:** Argentina's withdrawal is subject to the same constitutional requirements as the US withdrawal, including the 12-month notice period and settlement of financial obligations.[2]
+
+**Status (April 13, 2025):** Argentina remains a full Member State of the WHO. The 12-month notice period, initiated around February 5, 2025, is currently active.
+
+**Effective Withdrawal Date:** The withdrawal is expected to become effective on or around February 5, 2026, pending completion of the notice period and fulfillment of obligations.
+
+**Membership Note Recommendation:**
+> "Member State. Withdrawal process initiated February 5, 2025; effective February 2026, pending completion of the 12-month notice period and fulfillment of obligations."
+
+Argentina's decision, explicitly framed as following the US lead [2], signals a potential shift in geopolitical alignments concerning participation in multilateral health institutions. While politically significant, the direct financial impact of Argentina's withdrawal on the WHO's overall budget is considerably smaller than that of the US. Argentina's assessed contributions for the 2024-2025 biennium amount to approximately $8 million, compared to nearly $1 billion (including voluntary contributions) from the US.[27] Therefore, Argentina's move carries more weight as a political statement and a potential indicator of challenges to global health cooperation, rather than an immediate threat to the WHO's core operational funding, although it may affect specific regional programs or collaborations within PAHO.[41]
+
+### 3.3. Summary Table of Pending Withdrawals:
+The following table summarizes the status of the two Member States currently undergoing the withdrawal process as of April 13, 2025:
+
+| Country                   | Status (Apr 13, 2025) | Withdrawal Announced | Notice Period | Estimated Effective Withdrawal | Membership Note Summary                         |
+| :------------------------ | :-------------------- | :------------------- | :------------ | :----------------------------- | :-------------------------------------------- |
+| United States of America  | Member State          | Jan 20, 2025         | 12 Months     | Jan 20, 2026                   | Withdrawal process initiated, effective Jan 2026 |
+| Argentina                 | Member State          | Feb 5, 2025          | 12 Months     | Feb 5, 2026                    | Withdrawal process initiated, effective Feb 2026 |
+
+This table provides a concise overview of the key dates and statuses relevant to the withdrawal procedures, directly addressing the user query regarding these specific countries.
+
+## Section 4: Methodology for JSON Update
+
+The process for updating the user-provided JSON array (or generating a new one based on its implied structure) involved several steps to ensure accuracy and adherence to the status as of April 13, 2025:
+
+### 4.1. Baseline Establishment:
+A definitive baseline list of WHO Member States (194) and confirmed Associate Members (Puerto Rico, Tokelau) was compiled. This list was derived from the verified primary and secondary sources detailed in Section 2.5. Official short country names were used [10], and recent name changes were incorporated.
+
+### 4.2. Comparison with User's JSON (Conceptual):
+Although the original user JSON was not provided for direct modification, the methodology assumes a comparative process against such an input:
+- **Identify Missing Entries:** The baseline list would be compared against the user's JSON. Any verified Member State or Associate Member found in the baseline but absent from the user's array would be added.
+- **Identify Extraneous Entries:** Any entries in the user's JSON that do not correspond to a current Member State or Associate Member (e.g., Liechtenstein if incorrectly included, former members, duplicates) would be flagged for removal or correction.
+- **Verify/Update Fields:** For entries present in both the baseline and the user's JSON, key data fields would be meticulously verified and updated:
+    * **Country Name:** Ensured alignment with official short names.[10] Corrected misspellings or outdated names (e.g., ensuring 'Czechia', 'Türkiye', 'Eswatini').
+    * **Status:** Updated to 'Member State' or 'Associate Member'. For the USA and Argentina, the status remains 'Member State', but the Membership Notes field is updated to reflect the pending withdrawal.
+    * **ISO Code (if present):** Verified against standard ISO 3166-1 codes (alpha-2 or alpha-3, depending on the original structure), using sources like UNESCO lists for cross-reference where available.[15] Consistency in code type (e.g., all alpha-3) would be maintained.
+    * **Join Year/Date:** Updated only if verifiable WHO-specific join dates were found, which is generally challenging.[5] Given WHO's establishment in 1948 [1], any date prior is invalid. If the original JSON contained UN admission dates [7] or other dates, these would be retained unless proven incorrect, with a note about the data source limitation possibly added either in this report or as a comment within the JSON structure itself if deemed appropriate. Often, this field might be set to null if reliable data is unavailable.
+    * **Membership Notes:** Populated or updated with relevant information. Crucially, the detailed withdrawal status notes for the USA and Argentina (as specified in Section 3) were added. Notes regarding significant name changes or specific circumstances (e.g., UN recognition issues for Afghanistan's government [11]) could also be included or updated. Outdated or inaccurate notes would be removed.
+
+### 4.3. Final JSON Structure:
+The final output presented in Section 5 maintains a standard JSON array format, consisting of objects, each representing a member or associate member. The key names within each object (countryName, isoCode, status, joinDate, membershipNotes) are assumed based on common practice and the user's implicit request to update an existing structure. Consistency in keys and data types across all entries is maintained.
+
+## Section 5: Updated WHO Membership JSON Array (as of April 13, 2025)
+
+**Preamble:** The following JSON array represents the verified and updated list of World Health Organization (WHO) Member States and Associate Members as of April 13, 2025. The data reflects the outcomes of the verification methodology described in previous sections, including the current status of withdrawal processes for the United States of America and Argentina.
+
+**JSON Data:**
+```json
+[
+  {
+    "IGO": "WHO",
+    "COUNTRY_EN": "Afghanistan",
+    "ISO_A3": "AFG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Albania",
+    "ISO_A3": "ALB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Algeria",
+    "ISO_A3": "DZA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Andorra",
+    "ISO_A3": "AND",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Angola",
+    "ISO_A3": "AGO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Antigua and Barbuda",
+    "ISO_A3": "ATG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Argentina",
+    "ISO_A3": "ARG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": "Withdrawal process initiated February 5, 2025; effective February 2026, pending completion of the 12-month notice period and fulfillment of obligations."
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Armenia",
+    "ISO_A3": "ARM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Australia",
+    "ISO_A3": "AUS",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Austria",
+    "ISO_A3": "AUT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Azerbaijan",
+    "ISO_A3": "AZE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bahamas",
+    "ISO_A3": "BHS",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bahrain",
+    "ISO_A3": "BHR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bangladesh",
+    "ISO_A3": "BGD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Barbados",
+    "ISO_A3": "BRB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Belarus",
+    "ISO_A3": "BLR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Belgium",
+    "ISO_A3": "BEL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Belize",
+    "ISO_A3": "BLZ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Benin",
+    "ISO_A3": "BEN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bhutan",
+    "ISO_A3": "BTN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bolivia (Plurinational State of)",
+    "ISO_A3": "BOL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bosnia and Herzegovina",
+    "ISO_A3": "BIH",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Botswana",
+    "ISO_A3": "BWA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Brazil",
+    "ISO_A3": "BRA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Brunei Darussalam",
+    "ISO_A3": "BRN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Bulgaria",
+    "ISO_A3": "BGR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Burkina Faso",
+    "ISO_A3": "BFA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Burundi",
+    "ISO_A3": "BDI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Cabo Verde",
+    "ISO_A3": "CPV",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Cambodia",
+    "ISO_A3": "KHM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Cameroon",
+    "ISO_A3": "CMR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Canada",
+    "ISO_A3": "CAN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Central African Republic",
+    "ISO_A3": "CAF",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Chad",
+    "ISO_A3": "TCD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Chile",
+    "ISO_A3": "CHL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "China",
+    "ISO_A3": "CHN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Colombia",
+    "ISO_A3": "COL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Comoros",
+    "ISO_A3": "COM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Congo",
+    "ISO_A3": "COG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Cook Islands",
+    "ISO_A3": "COK",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Costa Rica",
+    "ISO_A3": "CRI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Côte d'Ivoire",
+    "ISO_A3": "CIV",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Croatia",
+    "ISO_A3": "HRV",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Cuba",
+    "ISO_A3": "CUB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Cyprus",
+    "ISO_A3": "CYP",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Czechia",
+    "ISO_A3": "CZE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": "Name changed from Czech Republic effective May 17, 2016.[11]"
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Democratic People's Republic of Korea",
+    "ISO_A3": "PRK",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Democratic Republic of the Congo",
+    "ISO_A3": "COD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Denmark",
+    "ISO_A3": "DNK",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Djibouti",
+    "ISO_A3": "DJI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Dominica",
+    "ISO_A3": "DMA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Dominican Republic",
+    "ISO_A3": "DOM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Ecuador",
+    "ISO_A3": "ECU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Egypt",
+    "ISO_A3": "EGY",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "El Salvador",
+    "ISO_A3": "SLV",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Equatorial Guinea",
+    "ISO_A3": "GNQ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Eritrea",
+    "ISO_A3": "ERI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Estonia",
+    "ISO_A3": "EST",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Eswatini",
+    "ISO_A3": "SWZ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": "Name changed from Swaziland effective April 19, 2018.[11]"
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Ethiopia",
+    "ISO_A3": "ETH",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Fiji",
+    "ISO_A3": "FJI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Finland",
+    "ISO_A3": "FIN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "France",
+    "ISO_A3": "FRA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Gabon",
+    "ISO_A3": "GAB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Gambia",
+    "ISO_A3": "GMB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Georgia",
+    "ISO_A3": "GEO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Germany",
+    "ISO_A3": "DEU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Ghana",
+    "ISO_A3": "GHA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Greece",
+    "ISO_A3": "GRC",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Grenada",
+    "ISO_A3": "GRD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Guatemala",
+    "ISO_A3": "GTM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Guinea",
+    "ISO_A3": "GIN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Guinea-Bissau",
+    "ISO_A3": "GNB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Guyana",
+    "ISO_A3": "GUY",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Haiti",
+    "ISO_A3": "HTI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Honduras",
+    "ISO_A3": "HND",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Hungary",
+    "ISO_A3": "HUN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Iceland",
+    "ISO_A3": "ISL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "India",
+    "ISO_A3": "IND",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Indonesia",
+    "ISO_A3": "IDN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Iran (Islamic Republic of)",
+    "ISO_A3": "IRN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Iraq",
+    "ISO_A3": "IRQ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Ireland",
+    "ISO_A3": "IRL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Israel",
+    "ISO_A3": "ISR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Italy",
+    "ISO_A3": "ITA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Jamaica",
+    "ISO_A3": "JAM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Japan",
+    "ISO_A3": "JPN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Jordan",
+    "ISO_A3": "JOR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Kazakhstan",
+    "ISO_A3": "KAZ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Kenya",
+    "ISO_A3": "KEN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Kiribati",
+    "ISO_A3": "KIR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Kuwait",
+    "ISO_A3": "KWT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Kyrgyzstan",
+    "ISO_A3": "KGZ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Lao People's Democratic Republic",
+    "ISO_A3": "LAO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Latvia",
+    "ISO_A3": "LVA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Lebanon",
+    "ISO_A3": "LBN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Lesotho",
+    "ISO_A3": "LSO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Liberia",
+    "ISO_A3": "LBR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Libya",
+    "ISO_A3": "LBY",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Lithuania",
+    "ISO_A3": "LTU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Luxembourg",
+    "ISO_A3": "LUX",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Madagascar",
+    "ISO_A3": "MDG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Malawi",
+    "ISO_A3": "MWI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Malaysia",
+    "ISO_A3": "MYS",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Maldives",
+    "ISO_A3": "MDV",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Mali",
+    "ISO_A3": "MLI",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Malta",
+    "ISO_A3": "MLT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Marshall Islands",
+    "ISO_A3": "MHL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Mauritania",
+    "ISO_A3": "MRT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Mauritius",
+    "ISO_A3": "MUS",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Mexico",
+    "ISO_A3": "MEX",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Micronesia (Federated States of)",
+    "ISO_A3": "FSM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Monaco",
+    "ISO_A3": "MCO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Mongolia",
+    "ISO_A3": "MNG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Montenegro",
+    "ISO_A3": "MNE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Morocco",
+    "ISO_A3": "MAR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Mozambique",
+    "ISO_A3": "MOZ",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Myanmar",
+    "ISO_A3": "MMR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Namibia",
+    "ISO_A3": "NAM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Nauru",
+    "ISO_A3": "NRU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Nepal",
+    "ISO_A3": "NPL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Netherlands",
+    "ISO_A3": "NLD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "New Zealand",
+    "ISO_A3": "NZL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Nicaragua",
+    "ISO_A3": "NIC",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Niger",
+    "ISO_A3": "NER",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Nigeria",
+    "ISO_A3": "NGA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Niue",
+    "ISO_A3": "NIU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "North Macedonia",
+    "ISO_A3": "MKD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Norway",
+    "ISO_A3": "NOR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Oman",
+    "ISO_A3": "OMN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Pakistan",
+    "ISO_A3": "PAK",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Palau",
+    "ISO_A3": "PLW",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Panama",
+    "ISO_A3": "PAN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Papua New Guinea",
+    "ISO_A3": "PNG",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Paraguay",
+    "ISO_A3": "PRY",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Peru",
+    "ISO_A3": "PER",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Philippines",
+    "ISO_A3": "PHL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Poland",
+    "ISO_A3": "POL",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Portugal",
+    "ISO_A3": "PRT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Puerto Rico",
+    "ISO_A3": "PRI",
+    "status": "Associate Member",
+    "joinDate": "1992-09",
+    "membershipNotes": "Associate Member status confirmed via WHO Regional list.[6] Join date based on PAHO Associate Membership [14]; specific WHO admission date verification pending."
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Qatar",
+    "ISO_A3": "QAT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Republic of Korea",
+    "ISO_A3": "KOR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Republic of Moldova",
+    "ISO_A3": "MDA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Romania",
+    "ISO_A3": "ROU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Russian Federation",
+    "ISO_A3": "RUS",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Rwanda",
+    "ISO_A3": "RWA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Saint Kitts and Nevis",
+    "ISO_A3": "KNA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Saint Lucia",
+    "ISO_A3": "LCA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Saint Vincent and the Grenadines",
+    "ISO_A3": "VCT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Samoa",
+    "ISO_A3": "WSM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "San Marino",
+    "ISO_A3": "SMR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Sao Tome and Principe",
+    "ISO_A3": "STP",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Saudi Arabia",
+    "ISO_A3": "SAU",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Senegal",
+    "ISO_A3": "SEN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Serbia",
+    "ISO_A3": "SRB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Seychelles",
+    "ISO_A3": "SYC",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Sierra Leone",
+    "ISO_A3": "SLE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Singapore",
+    "ISO_A3": "SGP",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Slovakia",
+    "ISO_A3": "SVK",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Slovenia",
+    "ISO_A3": "SVN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Solomon Islands",
+    "ISO_A3": "SLB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Somalia",
+    "ISO_A3": "SOM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "South Africa",
+    "ISO_A3": "ZAF",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "South Sudan",
+    "ISO_A3": "SSD",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Spain",
+    "ISO_A3": "ESP",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Sri Lanka",
+    "ISO_A3": "LKA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Sudan",
+    "ISO_A3": "SDN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Suriname",
+    "ISO_A3": "SUR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Sweden",
+    "ISO_A3": "SWE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Switzerland",
+    "ISO_A3": "CHE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Syrian Arab Republic",
+    "ISO_A3": "SYR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Tajikistan",
+    "ISO_A3": "TJK",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Thailand",
+    "ISO_A3": "THA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Timor-Leste",
+    "ISO_A3": "TLS",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Togo",
+    "ISO_A3": "TGO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Tokelau",
+    "ISO_A3": "TKL",
+    "status": "Associate Member",
+    "joinDate": null,
+    "membershipNotes": "Associate Member status confirmed via WHO Regional list.[6]"
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Tonga",
+    "ISO_A3": "TON",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Trinidad and Tobago",
+    "ISO_A3": "TTO",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Tunisia",
+    "ISO_A3": "TUN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Türkiye",
+    "ISO_A3": "TUR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": "Name changed from Turkey; recognized by UN/WHO.[12]"
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Turkmenistan",
+    "ISO_A3": "TKM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Tuvalu",
+    "ISO_A3": "TUV",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Uganda",
+    "ISO_A3": "UGA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Ukraine",
+    "ISO_A3": "UKR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "United Arab Emirates",
+    "ISO_A3": "ARE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "United Kingdom of Great Britain and Northern Ireland",
+    "ISO_A3": "GBR",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "United Republic of Tanzania",
+    "ISO_A3": "TZA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "United States of America",
+    "ISO_A3": "USA",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": "Withdrawal process initiated January 20, 2025; effective January 20, 2026, pending completion of the 12-month notice period and fulfillment of obligations."
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Uruguay",
+    "ISO_A3": "URY",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Uzbekistan",
+    "ISO_A3": "UZB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Vanuatu",
+    "ISO_A3": "VUT",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Venezuela (Bolivarian Republic of)",
+    "ISO_A3": "VEN",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Viet Nam",
+    "ISO_A3": "VNM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Yemen",
+    "ISO_A3": "YEM",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Zambia",
+    "ISO_A3": "ZMB",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  },
+  { "IGO": "WHO",
+    "COUNTRY_EN": "Zimbabwe",
+    "ISO_A3": "ZWE",
+    "status": "Member State",
+    "joinDate": null,
+    "membershipNotes": ""
+  }
+]
+```
+**Note on Join Dates:** Obtaining definitive, comprehensive WHO-specific join dates for all members remains challenging based on publicly available centralized data.[5] The `joinDate` field in the JSON array above is primarily set to null due to this limitation, unless a reasonably verified date (like PAHO associate membership for Puerto Rico [14]) was available. Users requiring precise WHO join dates should consult official WHO historical records or archives directly. UN admission dates may differ and should not be used as direct substitutes without explicit confirmation of WHO entry timing.
+
+## Section 6: Conclusion
+
+**Summary of Findings:** This analysis confirms that as of April 13, 2025, the World Health Organization consists of 194 Member States and two Associate Members (Puerto Rico and Tokelau). Significant updates include the formal initiation of withdrawal processes by the United States of America (effective January 2026) and Argentina (effective February 2026). Both nations remain full Member States during their respective 12-month notification periods. The provided JSON array reflects these statuses, incorporating verified country names and correcting potential discrepancies based on official WHO and UN sources.
+
+**Data Integrity:** The JSON dataset presented in Section 5 represents the most accurate depiction of WHO membership status available from the specified official and reliable sources as of the target date. Diligent verification and cross-referencing were employed to ensure data quality, particularly concerning the nuanced status of withdrawing members and the identification of Associate Members.
+
+**Dynamic Nature:** The landscape of international organization membership is inherently fluid. Political decisions, administrative processes, and global events can lead to changes in status. Therefore, for applications requiring ongoing precision, regular verification of membership information against official communications and documentation from the World Health Organization is strongly recommended.
+
+## Works Cited
+
+1.  [World Health Organization - Wikipedia, accessed on April 13, 2025](https://en.wikipedia.org/wiki/World_Health_Organization)
+2.  [Argentina Follows Trump's Lead in Withdrawing From WHO - Newsweek, accessed on April 13, 2025](https://www.newsweek.com/argentina-follows-trumps-lead-withdrawing-who-2026597)
+3.  [What the US exit from the WHO means for global health and pandemic preparedness, accessed on April 13, 2025](https://news.northeastern.edu/2025/01/23/us-withdrawn-from-who/)
+4.  [Overview of President Trump's Executive Actions on Global Health - KFF, accessed on April 13, 2025](https://www.kff.org/global-health-policy/fact-sheet/overview-of-president-trumps-executive-actions-on-global-health/)
+5.  [Countries - WHO Data - World Health Organization (WHO), accessed on April 13, 2025](https://data.who.int/countries)
+6.  [apps.who.int, accessed on April 13, 2025](https://apps.who.int/violence-info/Countries%20and%20areas%20by%20WHO%20region%20-%2012bfe12.pdf)
+7.  [Member States | United Nations, accessed on April 13, 2025](https://www.un.org/en/about-us/member-states)
+8.  [Member States - ICAO, accessed on April 13, 2025](https://www.icao.int/about-icao/pages/member-states.aspx)
+9.  [Member States - WIPO, accessed on April 13, 2025](https://www.wipo.int/members/en/)
+10. [OFFICIAL NAMES OF THE UNITED NATIONS MEMBERSHIP Islamic Republic of Afghanistan Republic of Albania People's Democratic Republ - UN Member States, accessed on April 13, 2025](https://www.un.int/protocol/sites/www.un.int/files/Protocol%20and%20Liaison%20Service/officialnamesofcountries.pdf)
+11. [Member states of the United Nations - Wikipedia, accessed on April 13, 2025](https://en.wikipedia.org/wiki/Member_states_of_the_United_Nations)
+12. [Countries and Areas List - United States Department of State, accessed on April 13, 2025](https://www.state.gov/countries-and-areas-list/)
+13. [Countries - World Health Organization (WHO), accessed on April 13, 2025](https://www.who.int/countries)
+14. [Member States of the Pan American Health Organization - PAHO/WHO, accessed on April 13, 2025](https://www.paho.org/en/planning-finance-and-accountability/member-states-pan-american-health-organization)
+15. [List of Member States and Associate Members of UNESCO at 1 January 2024, accessed on April 13, 2025](https://www.unesco.org/en/node/66561)
+16. [Basic documents - WHO, accessed on April 13, 2025](https://apps.who.int/gb/bd/)
+17. [Liechtenstein and the United Nations - Wikipedia, accessed on April 13, 2025](https://en.wikipedia.org/wiki/Liechtenstein_and_the_United_Nations)
+18. [Liechtenstein country brief | Australian Government Department of Foreign Affairs and Trade, accessed on April 13, 2025](https://www.dfat.gov.au/countries/liechtenstein/liechtenstein-country-brief)
+19. [Liechtenstein - Wikipedia, accessed on April 13, 2025](https://en.wikipedia.org/wiki/Liechtenstein)
+20. [Membership to International Organizations | Embassy of the Principality of Liechtenstein in Washington, D.C., accessed on April 13, 2025](https://www.liechtensteinusa.org/index.php/page/membership-to-international-organizations)
+21. [6 Facts About Healthcare in Liechtenstein - The Borgen Project, accessed on April 13, 2025](https://borgenproject.org/healthcare-in-liechtenstein/)
+22. [Why isn't Liechtenstein a member of the World Health Organization? : r/AskSocialScience, accessed on April 13, 2025](https://www.reddit.com/r/AskSocialScience/comments/1r45ar/why_isnt_liechtenstein_a_member_of_the_world/)
+23. [List of the Member States and the Associate Members of UNESCO, accessed on April 13, 2025](https://pax.unesco.org/countries/ListeMS.html)
+24. [Member States | UNESCO, accessed on April 13, 2025](https://www.unesco.org/en/countries)
+25. [Member States of the IAEA and dates of membership, accessed on April 13, 2025](https://www.iaea.org/about/governance/list-of-member-states)
+26. [List of Members' Date of Entry - International Monetary Fund (IMF), accessed on April 13, 2025](https://www.imf.org/external/np/sec/memdir/memdate.htm)
+27. [Argentina Withdraws From WHO, Executive Board Pauses Approval Of New Resolutions Pending Cost Reviews - Health Policy Watch, accessed on April 13, 2025](https://healthpolicy-watch.news/argentina-withdraws-from-who-executive-board-pauses-approval-of-new-resolutions-pending-cost-reviews/)
+28. [Argentina to withdraw from World Health Organization after Trump exit | ABS-CBN News, accessed on April 13, 2025](https://www.abs-cbn.com/news/world/2025/2/5/argentina-to-withdraw-from-world-health-organization-after-trump-exit-0744)
+29. [Argentina says it will withdraw from World Health Organization - Anadolu Ajansı, accessed on April 13, 2025](https://www.aa.com.tr/en/americas/argentina-says-it-will-withdraw-from-world-health-organization/3473441)
+30. [Milei says he's considering taking Argentina out of Paris Agreement | Buenos Aires Times, accessed on April 13, 2025](https://www.batimes.com.ar/news/argentina/milei-says-hes-considering-taking-argentina-out-of-paris-agreement.phtml)
+31. [Executive Order: Withdrawing the United States from the World Health Organization (Donald Trump, 2025) - Ballotpedia, accessed on April 13, 2025](https://ballotpedia.org/Executive_Order:_Withdrawing_the_United_States_from_the_World_Health_Organization_(Donald_Trump,_2025))
+32. [The World Health Organization (WHO): Background and U.S. Withdrawal - Congress.gov, accessed on April 13, 2025](https://www.congress.gov/crs-products/product/pdf/IN/IN12496)
+33. [accessed on January 1, 1970](https://en.wikipedia.org/wiki/List_of_World_Health_Organization_member_states)
+34. [Growth in United Nations membership, accessed on April 13, 2025](https://www.un.org/en/about-us/growth-in-un-membership)
+35. [basic documents - World Health Organization (WHO), accessed on April 13, 2025](https://apps.who.int/gb/bd/pdf/bd47/en/basic-documents-47-en.pdf)
+36. [Withdrawing The United States From The World Health Organization - The White House, accessed on April 13, 2025](https://www.whitehouse.gov/presidential-actions/2025/01/withdrawing-the-united-states-from-the-worldhealth-organization/)
+37. [Executive Order: Withdrawing the United States from the World Health Organization | Insights | Holland & Knight, accessed on April 13, 2025](https://www.hklaw.com/en/insights/publications/2025/01/executive-order-withdrawing-the-us-from-the-world-health-organization)
+38. [WHO comments on United States' announcement of intent to withdraw, accessed on April 13, 2025](https://www.who.int/news/item/21-01-2025-who-comments-on-united-states--announcement-of-intent-to-withdraw)
+39. [The Consequences of the U.S.'s Withdrawal from the WHO | Johns Hopkins, accessed on April 13, 2025](https://publichealth.jhu.edu/2025/the-consequences-of-the-us-withdrawal-from-the-who)
+40. [Following Trump, Argentina withdraws from World Health Organization - Al Jazeera, accessed on April 13, 2025](https://www.aljazeera.com/news/2025/2/5/following-trump-argentina-withdraws-from-world-health-organization)
+41. [Latin America Roundup: Argentina president announces intent to withdraw from WHO, accessed on April 13, 2025](https://www.raps.org/news-and-articles/news-articles/2025/2/latin-america-roundup-argentina-president-announce)
+42. [Javier Milei Withdraws Argentina from World Health Organization, Blasts Social Justice Groups | Democracy Now!, accessed on April 13, 2025](https://www.democracynow.org/2025/2/6/headlines/javier_milei_withdraws_argentina_from_world_health_organization_blasts_social_justice_groups)
+43. [Echoing Trump, Milei pulls Argentina out of World Health Organization - Buenos Aires Times, accessed on April 13, 2025](https://www.batimes.com.ar/news/argentina/echoing-trump-milei-pulls-argentina-out-of-world-health-organization.phtml)
